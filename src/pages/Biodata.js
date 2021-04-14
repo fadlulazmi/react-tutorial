@@ -14,10 +14,10 @@ export default function Biodata() {
 
   useEffect(() => {
     // proccess
-    setData({
+    setData(data => ({
       ...data,
       age: umurJono
-    })
+    }))
   }, [umurJono])
 
   const updateEmail = () => {

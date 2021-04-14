@@ -8,7 +8,6 @@ export default function Home() {
   const dispatch = useDispatch()
 
   const [count, setCount] = useState(1)
-  console.log('rerender ==> global state', umurJono)
 
   useEffect(() => {
     setCount(umurJono)
